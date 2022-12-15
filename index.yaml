@@ -31,6 +31,16 @@ entries:
     urls:
     - https://github.com/liyp/greptime-helm-charts/releases/download/greptimedb-0.1.1-alpha.2/greptimedb-0.1.1-alpha.2.tgz
     version: 0.1.1-alpha.2
+  - apiVersion: v2
+    appVersion: 0.1.0-alpha-20221205-weekly
+    created: "2022-12-15T18:59:20.430731273Z"
+    description: A Helm chart for deploying GreptimeDB cluster in Kubernetes
+    digest: 26cd8f86db7bf39faaefa56bebfa39c23640443ec863a4dd68d559aaf4001ef4
+    name: greptimedb
+    type: application
+    urls:
+    - https://github.com/liyp/greptime-helm-charts/releases/download/greptimedb-0.1.1-alpha.2/greptimedb-0.1.1-alpha.2.tgz
+    version: 0.1.1-alpha.2
   greptimedb-etcd:
   - apiVersion: v2
     appVersion: 3.5.5
@@ -57,6 +67,16 @@ entries:
     created: "2022-12-15T18:48:25.410296247Z"
     description: A Helm chart for deploying etcd cluster in Kubernetes
     digest: 3f51bb07818da1410e78cafa322e433c19253759b2a7dd10b5b699ad2c88591a
+    name: greptimedb-etcd
+    type: application
+    urls:
+    - https://github.com/liyp/greptime-helm-charts/releases/download/greptimedb-etcd-0.1.1-alpha.1/greptimedb-etcd-0.1.1-alpha.1.tgz
+    version: 0.1.1-alpha.1
+  - apiVersion: v2
+    appVersion: 3.5.5
+    created: "2022-12-15T18:59:20.570901256Z"
+    description: A Helm chart for deploying etcd cluster in Kubernetes
+    digest: 486a7d56f2772656dbb68a54615a06960bbf0baa051f7335b88c3ef31b6f33ac
     name: greptimedb-etcd
     type: application
     urls:
@@ -132,4 +152,27 @@ entries:
     urls:
     - https://github.com/liyp/greptime-helm-charts/releases/download/greptimedb-operator-0.1.1-alpha.2/greptimedb-operator-0.1.1-alpha.2.tgz
     version: 0.1.1-alpha.2
-generated: "2022-12-15T18:48:25.540142856Z"
+  - apiVersion: v2
+    appVersion: 0.1.0-alpha.8
+    created: "2022-12-15T18:59:20.759654808Z"
+    description: The greptimedb-operator Helm chart for Kubernetes
+    digest: a6995fcd8269633ab5669a340b9435e67d91c83a21ccdbb2ea4ac6639f1c3c62
+    home: https://github.com/GreptimeTeam/greptimedb-operator
+    keywords:
+    - operator
+    - database
+    - greptimedb
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: liyang@greptime.com
+      name: daviderli614
+    - email: zyy@greptime.com
+      name: zyy17
+    name: greptimedb-operator
+    sources:
+    - https://github.com/GreptimeTeam/greptimedb-operator
+    type: application
+    urls:
+    - https://github.com/liyp/greptime-helm-charts/releases/download/greptimedb-operator-0.1.1-alpha.2/greptimedb-operator-0.1.1-alpha.2.tgz
+    version: 0.1.1-alpha.2
+generated: "2022-12-15T18:59:20.759682309Z"
