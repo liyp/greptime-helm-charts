@@ -12,6 +12,6 @@ servicePorts:
   peer: 2380
 
 storage:
-  storageClassName: "standard"
+  storageClassName: ""
   volumeSize: 10Gi
   dataDir: /var/lib/etcd

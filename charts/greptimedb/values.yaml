@@ -23,7 +23,7 @@ meta:
 datanode:
   replicas: 3
   storage:
-    storageClassName: standard
+    storageClassName: ""
     storageSize: 10Gi
     storageRetainPolicy: Retain
 
