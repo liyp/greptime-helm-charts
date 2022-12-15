@@ -23,8 +23,8 @@ meta:
 datanode:
   replicas: 3
   storage:
-    storageClassName: standard
-    storageSize: 10Gi
+    storageClassName: "manual"
+    storageSize: 11Gi
     storageRetainPolicy: Retain
 
 initializer:
@@ -39,4 +39,4 @@ mysqlServicePort: 4002
 postgresServicePort: 4003
 openTSDBServicePort: 4242
 
-enablePrometheusMonitor: false
+enablePrometheusMonitor: true
