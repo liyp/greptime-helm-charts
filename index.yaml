@@ -41,7 +41,27 @@ entries:
     urls:
     - https://github.com/liyp/greptime-helm-charts/releases/download/greptimedb-0.1.1-alpha.2/greptimedb-0.1.1-alpha.2.tgz
     version: 0.1.1-alpha.2
+  - apiVersion: v2
+    appVersion: 0.1.0-alpha-20221205-weekly
+    created: "2022-12-19T05:08:17.543028408Z"
+    description: A Helm chart for deploying GreptimeDB cluster in Kubernetes
+    digest: eddb2598daf554d8b28dab5eb9cb695eb994e67db69e056325e0cb11b7b1d4b0
+    name: greptimedb
+    type: application
+    urls:
+    - https://github.com/liyp/greptime-helm-charts/releases/download/greptimedb-0.1.1-alpha.2/greptimedb-0.1.1-alpha.2.tgz
+    version: 0.1.1-alpha.2
   greptimedb-etcd:
+  - apiVersion: v2
+    appVersion: 3.5.5
+    created: "2022-12-19T05:08:17.675669572Z"
+    description: A Helm chart for deploying etcd cluster in Kubernetes
+    digest: 41ee051a483585a5233537e18125479d0a3aa6980dbb460de4bc9165cb0d6263
+    name: greptimedb-etcd
+    type: application
+    urls:
+    - https://github.com/liyp/greptime-helm-charts/releases/download/greptimedb-etcd-0.1.1-alpha.1.1/greptimedb-etcd-0.1.1-alpha.1.1.tgz
+    version: 0.1.1-alpha.1.1
   - apiVersion: v2
     appVersion: 3.5.5
     created: "2022-12-15T18:18:31.938428793Z"
@@ -175,4 +195,27 @@ entries:
     urls:
     - https://github.com/liyp/greptime-helm-charts/releases/download/greptimedb-operator-0.1.1-alpha.2/greptimedb-operator-0.1.1-alpha.2.tgz
     version: 0.1.1-alpha.2
-generated: "2022-12-15T18:59:20.759682309Z"
+  - apiVersion: v2
+    appVersion: 0.1.0-alpha.8
+    created: "2022-12-19T05:08:17.81102275Z"
+    description: The greptimedb-operator Helm chart for Kubernetes
+    digest: 5cb683a7136dd1314cecbfbc4050481fc98ba295ac0be7a4369f11a54d749bd2
+    home: https://github.com/GreptimeTeam/greptimedb-operator
+    keywords:
+    - operator
+    - database
+    - greptimedb
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: liyang@greptime.com
+      name: daviderli614
+    - email: zyy@greptime.com
+      name: zyy17
+    name: greptimedb-operator
+    sources:
+    - https://github.com/GreptimeTeam/greptimedb-operator
+    type: application
+    urls:
+    - https://github.com/liyp/greptime-helm-charts/releases/download/greptimedb-operator-0.1.1-alpha.2/greptimedb-operator-0.1.1-alpha.2.tgz
+    version: 0.1.1-alpha.2
+generated: "2022-12-19T05:08:17.81107305Z"
